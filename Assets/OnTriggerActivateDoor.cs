@@ -10,6 +10,8 @@ public class OnTriggerActivateDoor : MonoBehaviour
         if (!doorAnimator)
             return;
         
+        if(!other.gameObject.CompareTag(""))
+        
         doorAnimator.PlayAnimation();
     }
 

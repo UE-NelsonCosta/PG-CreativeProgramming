@@ -9,6 +9,8 @@ public class OrbitalCamera : MonoBehaviour
     [SerializeField] private float RotationSpeedX = 180.0f;
     [SerializeField] private float RotationSpeedY = 180.0f;
 
+    [SerializeField] private float TrackingDistance = 3.0f;
+
     private void Start()
     {
         if (TargetToFollow == null)
@@ -33,6 +35,6 @@ public class OrbitalCamera : MonoBehaviour
                     )
             );
 
-        transform.position = TargetToFollow.position - (transform.forward * 10);
+        transform.position = TargetToFollow.position - (transform.forward * TrackingDistance);
     }
 }
