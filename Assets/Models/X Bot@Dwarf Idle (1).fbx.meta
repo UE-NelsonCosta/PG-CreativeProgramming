@@ -17,7 +17,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: Event RevertToOriginalColor has a time (6.964355) outside
+    animationImportWarnings: Event RevertToOriginalColor has a time (6.508712) outside
       the clip's valid range (0.000000..6.266667). It will never be fired
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
